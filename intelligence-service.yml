@@ -1,0 +1,23 @@
+server:
+  port: 9030
+  servlet.context-path: /intelligence
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5434/codeforge-intelligence-db
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  ai:
+    model.chat: openai
+    openai:
+      api-key: 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
+      base-url: https://openrouter.ai/api
+      chat:
+        options:
+          model: openai/gpt-5.2-codex
+          temperature: 0.2
+      embedding:
+        options:
+          model: qwen/qwen3-embedding-8b
