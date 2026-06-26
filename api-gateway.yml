@@ -9,6 +9,8 @@ app:
       - "/api/v1/account/webhooks/**"
       - "/api/v1/workspace/public/**"
       - "/api/v1/account/v3/api-docs/**"
+      - "/api/v1/intelligence/v3/api-docs/**"
+      - "/api/v1/workspace/v3/api-docs/**"
 
 spring:
   cloud:
