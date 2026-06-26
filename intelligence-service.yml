@@ -33,10 +33,10 @@ spring:
     username: intelligence_user
     password: ${DB_PASSWORD}
 
-ai:
+  ai:
     openai:
       api-key: ${AI_API_KEY}
-    chat:
+      chat:
         options:
           # model: google/gemini-3-flash-preview
           model: anthropic/claude-sonnet-4.6
