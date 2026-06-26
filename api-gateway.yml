@@ -11,7 +11,7 @@ app:
 
 spring:
   cloud:
-    gateway:
+    gateway.server.webflux:
       routes:
         # Account Service (context-path: /account)
         - id: account-service
