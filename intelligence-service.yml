@@ -38,5 +38,5 @@ spring:
       api-key: ${AI_API_KEY}
       chat:
         options:
-          # model: google/gemini-3-flash-preview
-          model: anthropic/claude-sonnet-4.6
+          model: google/gemini-3-flash-preview
+          # model: anthropic/claude-sonnet-4.6
