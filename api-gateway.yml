@@ -11,6 +11,9 @@ app:
       - "/api/v1/account/v3/api-docs/**"
       - "/api/v1/intelligence/v3/api-docs/**"
       - "/api/v1/workspace/v3/api-docs/**"
+      - "/api/v1/account/swagger-ui/**"
+      - "/api/v1/intelligence/swagger-ui/**"
+      - "/api/v1/workspace/swagger-ui/**"
 
 spring:
   cloud:
