@@ -35,6 +35,8 @@ eureka:
 jwt.secretKey: asfd9asfdaoijfalkjl23u4oi5jlkjf98790890890ugojvakglsdfjn8yuh
 
 app:
+  billing:
+    mode: LOCAL
   frontend:
     url: http://localhost:8080/frontend
   preview:
@@ -77,6 +79,8 @@ eureka:
 jwt.secretKey: ${JWT_SECRET}
 
 app:
+  billing:
+    mode: DEMO
   frontend:
     url: ${FRONTEND_URL}
   preview:
